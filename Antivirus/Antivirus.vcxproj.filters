@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\DataBase">
+      <UniqueIdentifier>{8f5bb42e-a776-4754-a712-248caccf7669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UpdatedDataBase">
+      <UniqueIdentifier>{fedb5b35-a818-4882-8947-86d41d9d21f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Files">
+      <UniqueIdentifier>{b0da91d1-6a41-46c2-9262-22771417e2a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextScanWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryScanWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Antivirus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkersFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ScanManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextScanWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryScanWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Antivirus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkersFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanWorkerInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="NormalText1.txt">
+      <Filter>Resource Files\Files</Filter>
+    </Text>
+    <Text Include="TextDataBase.txt">
+      <Filter>Resource Files\DataBase</Filter>
+    </Text>
+    <Text Include="TextLastUpdate.txt">
+      <Filter>Resource Files\UpdatedDataBase</Filter>
+    </Text>
+    <Text Include="BinaryDataBase.txt">
+      <Filter>Resource Files\DataBase</Filter>
+    </Text>
+    <Text Include="BinaryLastUpdate.txt">
+      <Filter>Resource Files\UpdatedDataBase</Filter>
+    </Text>
+    <Text Include="ScanReport.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ExceptionReport.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExecutableFile1.exe">
+      <Filter>Resource Files\Files</Filter>
+    </None>
+    <None Include="ExecutableFile2.exe">
+      <Filter>Resource Files\Files</Filter>
+    </None>
+    <None Include="BinaryUpdate.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Binary1.bin">
+      <Filter>Resource Files\DataBase</Filter>
+    </None>
+    <None Include="Binary2.bin">
+      <Filter>Resource Files\DataBase</Filter>
+    </None>
+    <None Include="BinaryLastUpdate1.bin">
+      <Filter>Resource Files\UpdatedDataBase</Filter>
+    </None>
+    <None Include="BinaryLastUpdate2.bin">
+      <Filter>Resource Files\UpdatedDataBase</Filter>
+    </None>
+    <None Include="BinaryLastUpdate3.bin">
+      <Filter>Resource Files\UpdatedDataBase</Filter>
+    </None>
+    <None Include="BinaryLastUpdate4.bin">
+      <Filter>Resource Files\UpdatedDataBase</Filter>
+    </None>
+    <None Include="ThisWasAPicture(Jpeg).exe">
+      <Filter>Resource Files\DataBase</Filter>
+    </None>
+  </ItemGroup>
+</Project>
